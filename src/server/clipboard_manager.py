@@ -1,6 +1,5 @@
-import pyperclip
-from threading import Lock
 
+from threading import Lock
 
 class ClipboardManager:
     def __init__(self):
@@ -14,4 +13,3 @@ class ClipboardManager:
     def set_content(self, content):
         with self._lock:
             self._content = content
-            pyperclip.copy(content)
