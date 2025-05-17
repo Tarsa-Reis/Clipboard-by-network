@@ -1,20 +1,17 @@
 from src.client.clipboard_monitor import ClipboardMonitor
+from config.settings import SERVER_URL
 import time
 
 print("Iniciando cliente de clipboard...")
+print(f"Conectando ao servidor: {SERVER_URL}")
 
-# substituir pelo ip do servidor
-server_url = "http://192.168.254.224:5000"
-print(f"Conectando ao servidor: {server_url}")
-
-monitor = ClipboardMonitor(server_url)
+monitor = ClipboardMonitor(SERVER_URL)
 monitor.start()
 
 print("\nCliente rodando! Para parar, pressione Ctrl+C")
 print("----------------------------------------")
 print("Aguardando alterações no clipboard...")
 
-# Mantém o programa rodando
 try:
     while True:
         time.sleep(1)

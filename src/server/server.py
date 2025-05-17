@@ -1,12 +1,5 @@
 from src.server.app import run_server
-from src.client.clipboard_monitor import ClipboardMonitor
+from config.settings import SERVER_HOST, SERVER_PORT
 
-#iniciar servidor
-
-server_url = "http://192.168.254.224:5000"
-monitor = ClipboardMonitor(server_url)
-monitor.start()
-
-#Roda o servidor Flask (colocar o seu IP local)
-
-run_server(host='192.168.254.224', port=5000)
+# Roda o servidor Flask
+run_server(host=SERVER_HOST, port=SERVER_PORT)

@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c1b6e1d-3935-4ce0-b207-84bbd7539f2f" name="Changes" comment="feat: Implementa sistema de compartilhamento de clipboard em rede&#10;&#10;- Adiciona servidor Flask para gerenciar clipboard&#10;- Implementa monitor de clipboard para sincronização&#10;- Organiza projeto em estrutura modular com src/&#10;- Configura gerenciamento de threads para operações assíncronas&#10;- Adiciona tratamento de erros para operações de rede">
+    <list default="true" id="4c1b6e1d-3935-4ce0-b207-84bbd7539f2f" name="Changes" comment="feat: Implementa sistema de compartilhamento de clipboard em rede&#10;&#10;servidor funcionando">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/server.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +89,7 @@
       <workItem from="1747438323365" duration="1110000" />
       <workItem from="1747439450147" duration="933000" />
       <workItem from="1747440461314" duration="9087000" />
-      <workItem from="1747494119051" duration="6441000" />
+      <workItem from="1747494119051" duration="6936000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Implementa sistema de compartilhamento de clipboard em rede&#10;&#10;- Adiciona servidor Flask para gerenciar clipboard&#10;- Implementa monitor de clipboard para sincronização&#10;- Organiza projeto em estrutura modular com src/&#10;- Configura gerenciamento de threads para operações assíncronas&#10;- Adiciona tratamento de erros para operações de rede">
       <option name="closed" value="true" />
@@ -129,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747506355925</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: Implementa sistema de compartilhamento de clipboard em rede&#10;&#10;servidor funcionando">
+      <option name="closed" value="true" />
+      <created>1747507980763</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1747507980763</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +147,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: Implementa sistema de compartilhamento de clipboard em rede&#10;&#10;- Adiciona servidor Flask para gerenciar clipboard&#10;- Implementa monitor de clipboard para sincronização&#10;- Organiza projeto em estrutura modular com src/&#10;- Configura gerenciamento de threads para operações assíncronas&#10;- Adiciona tratamento de erros para operações de rede" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Implementa sistema de compartilhamento de clipboard em rede&#10;&#10;- Adiciona servidor Flask para gerenciar clipboard&#10;- Implementa monitor de clipboard para sincronização&#10;- Organiza projeto em estrutura modular com src/&#10;- Configura gerenciamento de threads para operações assíncronas&#10;- Adiciona tratamento de erros para operações de rede" />
+    <MESSAGE value="feat: Implementa sistema de compartilhamento de clipboard em rede&#10;&#10;servidor funcionando" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Implementa sistema de compartilhamento de clipboard em rede&#10;&#10;servidor funcionando" />
   </component>
 </project>
