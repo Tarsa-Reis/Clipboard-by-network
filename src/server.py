@@ -9,4 +9,4 @@ monitor.start()
 
 #Roda o servidor Flask (colocar o seu IP local)
 
-run_server(host='0.0.0.0', port=5000)
+run_server(host='192.168.254.224', port=5000)
