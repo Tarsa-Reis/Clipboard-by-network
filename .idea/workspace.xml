@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c1b6e1d-3935-4ce0-b207-84bbd7539f2f" name="Changes" comment="feat: Implementa sistema de compartilhamento de clipboard em rede&#10;&#10;- Adiciona servidor Flask para gerenciar clipboard&#10;- Implementa monitor de clipboard para sincronização&#10;- Organiza projeto em estrutura modular com src/&#10;- Configura gerenciamento de threads para operações assíncronas&#10;- Adiciona tratamento de erros para operações de rede" />
+    <list default="true" id="4c1b6e1d-3935-4ce0-b207-84bbd7539f2f" name="Changes" comment="feat: Implementa sistema de compartilhamento de clipboard em rede&#10;&#10;- Adiciona servidor Flask para gerenciar clipboard&#10;- Implementa monitor de clipboard para sincronização&#10;- Organiza projeto em estrutura modular com src/&#10;- Configura gerenciamento de threads para operações assíncronas&#10;- Adiciona tratamento de erros para operações de rede">
+      <change afterPath="$PROJECT_DIR$/src/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,12 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Tarsa-Reis/Clipboard-by-network.git",
-    "accountId": "b3effa64-95fb-49d5-bf4f-38d513a6aaf2"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Tarsa-Reis&quot;
   }
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Tarsa-Reis/Clipboard-by-network.git&quot;,
+    &quot;accountId&quot;: &quot;b3effa64-95fb-49d5-bf4f-38d513a6aaf2&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -35,25 +46,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "ml.llm.LLMThirdPartyAiProvidersConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.LLMThirdPartyAiProvidersConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Projetos\Python\PythonProject" />
       <recent name="C:\Projetos\Python\PythonProject\src" />
+      <recent name="C:\Projetos\Python\PythonProject" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -74,7 +85,8 @@
       <updated>1747438322343</updated>
       <workItem from="1747438323365" duration="1110000" />
       <workItem from="1747439450147" duration="933000" />
-      <workItem from="1747440461314" duration="4238000" />
+      <workItem from="1747440461314" duration="9087000" />
+      <workItem from="1747494119051" duration="1602000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Implementa sistema de compartilhamento de clipboard em rede&#10;&#10;- Adiciona servidor Flask para gerenciar clipboard&#10;- Implementa monitor de clipboard para sincronização&#10;- Organiza projeto em estrutura modular com src/&#10;- Configura gerenciamento de threads para operações assíncronas&#10;- Adiciona tratamento de erros para operações de rede">
       <option name="closed" value="true" />
@@ -84,7 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747480180295</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: Implementa sistema de compartilhamento de clipboard em rede&#10;&#10;- Adiciona servidor Flask para gerenciar clipboard&#10;- Implementa monitor de clipboard para sincronização&#10;- Organiza projeto em estrutura modular com src/&#10;- Configura gerenciamento de threads para operações assíncronas&#10;- Adiciona tratamento de erros para operações de rede">
+      <option name="closed" value="true" />
+      <created>1747481934570</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1747481934570</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,16 +113,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: Implementa sistema de compartilhamento de clipboard em rede&#10;&#10;- Adiciona servidor Flask para gerenciar clipboard&#10;- Implementa monitor de clipboard para sincronização&#10;- Organiza projeto em estrutura modular com src/&#10;- Configura gerenciamento de threads para operações assíncronas&#10;- Adiciona tratamento de erros para operações de rede" />
     <option name="LAST_COMMIT_MESSAGE" value="feat: Implementa sistema de compartilhamento de clipboard em rede&#10;&#10;- Adiciona servidor Flask para gerenciar clipboard&#10;- Implementa monitor de clipboard para sincronização&#10;- Organiza projeto em estrutura modular com src/&#10;- Configura gerenciamento de threads para operações assíncronas&#10;- Adiciona tratamento de erros para operações de rede" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
