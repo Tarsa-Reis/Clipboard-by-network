@@ -1,4 +1,5 @@
-flask==2.0.1
-pyperclip==1.8.2
-requests==2.26.0
-python-dotenv==0.19.0
+flask
+python-dotenv
+pyperclip
+gunicorn
+requests

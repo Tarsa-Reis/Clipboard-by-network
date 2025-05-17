@@ -15,8 +15,6 @@ def set_clipboard():
     clipboard_manager.set_content(content)
     return jsonify({'status': 'success'})
 
-def run_server(host='0.0.0.0', port=5000):
-    app.run(host=host, port=port)
 
-if __name__ == '__main__':
-    run_server()
+# Expor a aplicação para o Gunicorn
+application = app
