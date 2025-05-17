@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c1b6e1d-3935-4ce0-b207-84bbd7539f2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PythonProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/compartilhar_clipboard.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/clipboard_monitor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/clipboard_manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_server.py" afterDir="false" />
-    </list>
+    <list default="true" id="4c1b6e1d-3935-4ce0-b207-84bbd7539f2f" name="Changes" comment="feat: Implementa sistema de compartilhamento de clipboard em rede&#10;&#10;- Adiciona servidor Flask para gerenciar clipboard&#10;- Implementa monitor de clipboard para sincronização&#10;- Organiza projeto em estrutura modular com src/&#10;- Configura gerenciamento de threads para operações assíncronas&#10;- Adiciona tratamento de erros para operações de rede" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +21,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Tarsa-Reis/Clipboard-by-network.git",
+    "accountId": "b3effa64-95fb-49d5-bf4f-38d513a6aaf2"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -88,12 +74,25 @@
       <updated>1747438322343</updated>
       <workItem from="1747438323365" duration="1110000" />
       <workItem from="1747439450147" duration="933000" />
-      <workItem from="1747440461314" duration="2993000" />
+      <workItem from="1747440461314" duration="4238000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: Implementa sistema de compartilhamento de clipboard em rede&#10;&#10;- Adiciona servidor Flask para gerenciar clipboard&#10;- Implementa monitor de clipboard para sincronização&#10;- Organiza projeto em estrutura modular com src/&#10;- Configura gerenciamento de threads para operações assíncronas&#10;- Adiciona tratamento de erros para operações de rede">
+      <option name="closed" value="true" />
+      <created>1747480180295</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1747480180295</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: Implementa sistema de compartilhamento de clipboard em rede&#10;&#10;- Adiciona servidor Flask para gerenciar clipboard&#10;- Implementa monitor de clipboard para sincronização&#10;- Organiza projeto em estrutura modular com src/&#10;- Configura gerenciamento de threads para operações assíncronas&#10;- Adiciona tratamento de erros para operações de rede" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Implementa sistema de compartilhamento de clipboard em rede&#10;&#10;- Adiciona servidor Flask para gerenciar clipboard&#10;- Implementa monitor de clipboard para sincronização&#10;- Organiza projeto em estrutura modular com src/&#10;- Configura gerenciamento de threads para operações assíncronas&#10;- Adiciona tratamento de erros para operações de rede" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
